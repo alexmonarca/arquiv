@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arquiv | Histórico F1 (2015-2025)</title>
+    <title>Arquiv | Histórico F1 (2005-2026)</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
@@ -35,21 +35,24 @@
             background: linear-gradient(90deg, transparent, #f59e0b, transparent);
         }
 
-        .ad-placeholder {
-            background: #f1f5f9;
-            border: 2px dashed #cbd5e1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100px;
-            color: #64748b;
-            font-size: 0.8rem;
-            border-radius: 8px;
-            margin: 20px 0;
+        .reform-banner {
+            background: #f59e0b;
+            color: #1e3a8a;
+            text-align: center;
+            padding: 8px;
+            font-weight: 800;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
         }
     </style>
 </head>
 <body class="text-slate-900">
+
+    <!-- Aviso de Reformas -->
+    <div class="reform-banner italic">
+        <i class="fas fa-tools mr-2"></i> Atenção: Novo Site em Reformas - Adicionando Registros Históricos
+    </div>
 
     <!-- Header Navigation -->
     <nav class="f1-gradient text-white sticky top-0 z-50 shadow-xl">
@@ -65,7 +68,7 @@
                 <a href="#" class="hover:text-amber-400 transition">Temporadas</a>
                 <a href="#" class="hover:text-amber-400 transition">Pilotos</a>
                 <a href="#" class="hover:text-amber-400 transition">Circuitos</a>
-                <a href="#" class="hover:text-amber-400 transition">Estatísticas</a>
+                <a href="#" class="hover:text-amber-400 transition">Atualizações</a>
             </div>
 
             <button class="bg-white text-blue-900 px-5 py-2 rounded-full font-bold text-sm hover:bg-amber-500 hover:text-white transition-all shadow-lg">
@@ -85,30 +88,30 @@
         
         <div class="container mx-auto px-4 relative z-10">
             <div class="max-w-3xl">
-                <span class="accent-gradient px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest mb-4 inline-block">Arquivo Histórico</span>
+                <span class="accent-gradient px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest mb-4 inline-block">Arquivo Histórico em Expansão</span>
                 <h1 class="text-5xl md:text-7xl font-black mb-6 italic leading-none">
-                    A HISTÓRIA DA F1 <br><span class="text-amber-500">DE 2015 A 2025.</span>
+                    A HISTÓRIA DA F1 <br><span class="text-amber-500">DE 2005 A 2026.</span>
                 </h1>
                 <p class="text-xl text-slate-300 mb-8 max-w-xl">
-                    Explore resultados detalhados, voltas rápidas e a evolução tecnológica de uma década de pura adrenalina nas pistas.
+                    Explore resultados detalhados, voltas rápidas e a evolução tecnológica de duas décadas de pura adrenalina nas pistas.
                 </p>
                 <div class="flex flex-wrap gap-4">
-                    <button class="bg-amber-600 hover:bg-amber-500 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl transition-all">Ver Temporada 2024</button>
-                    <button class="border-2 border-white/30 hover:bg-white/10 px-8 py-4 rounded-xl font-bold text-lg transition-all">Explorar 2015</button>
+                    <button class="bg-amber-600 hover:bg-amber-500 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl transition-all">Ver Temporada 2025</button>
+                    <button class="border-2 border-white/30 hover:bg-white/10 px-8 py-4 rounded-xl font-bold text-lg transition-all">Explorar 2005</button>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- ESPAÇO PUBLICITÁRIO TOPO (ABAIXO DO HERO) -->
+    <!-- ESPAÇO PUBLICITÁRIO TOPO -->
     <div class="container mx-auto px-4 -mt-10 relative z-20">
         <div class="bg-white p-4 rounded-2xl shadow-2xl overflow-hidden">
             <p class="text-[10px] text-slate-400 uppercase tracking-widest mb-2 text-center">Publicidade</p>
-            <!-- Responsivo2025 -->
+            <!-- arquiv_2026 -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-7197376783143404"
-                 data-ad-slot="2704581234"
+                 data-ad-slot="6214191157"
                  data-ad-format="auto"
                  data-full-width-responsive="true"></ins>
             <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -123,7 +126,7 @@
             <!-- Coluna Principal (2/3) -->
             <div class="lg:col-span-2">
                 <div class="flex items-center justify-between mb-8 border-b border-slate-200 pb-4">
-                    <h2 class="text-3xl font-black italic text-blue-900">Últimos Registros</h2>
+                    <h2 class="text-3xl font-black italic text-blue-900">Últimas Atualizações</h2>
                     <div class="flex space-x-2">
                         <button class="p-2 bg-slate-200 rounded-lg hover:bg-blue-100 transition"><i class="fas fa-chevron-left"></i></button>
                         <button class="p-2 bg-slate-200 rounded-lg hover:bg-blue-100 transition"><i class="fas fa-chevron-right"></i></button>
@@ -137,13 +140,13 @@
                         <div class="h-48 bg-slate-300 relative">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                             <div class="absolute bottom-4 left-4">
-                                <span class="bg-amber-500 text-xs font-bold px-2 py-1 rounded mb-2 inline-block">TEMPORADA 2021</span>
-                                <h3 class="text-white font-bold text-xl leading-tight text-shadow">O Duelo do Século: Hamilton vs Verstappen</h3>
+                                <span class="bg-amber-500 text-xs font-bold px-2 py-1 rounded mb-2 inline-block">ATUALIZAÇÃO 2026</span>
+                                <h3 class="text-white font-bold text-xl leading-tight text-shadow">Mercado de Pilotos: As surpresas para a nova temporada</h3>
                             </div>
                         </div>
                         <div class="p-4 flex justify-between items-center text-sm text-slate-500">
-                            <span><i class="far fa-calendar-alt mr-1"></i> Dez 2021</span>
-                            <span class="text-blue-600 font-bold uppercase tracking-tighter">Ver Registros <i class="fas fa-arrow-right ml-1"></i></span>
+                            <span><i class="far fa-newspaper mr-1"></i> Notícias Atuais</span>
+                            <span class="text-blue-600 font-bold uppercase tracking-tighter">Ler Mais <i class="fas fa-arrow-right ml-1"></i></span>
                         </div>
                     </div>
 
@@ -151,45 +154,75 @@
                         <div class="h-48 bg-slate-300 relative">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                             <div class="absolute bottom-4 left-4">
-                                <span class="bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded mb-2 inline-block">TEMPORADA 2016</span>
-                                <h3 class="text-white font-bold text-xl leading-tight">Nico Rosberg: O Campeão que se Despediu</h3>
+                                <span class="bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded mb-2 inline-block">REGISTRO HISTÓRICO</span>
+                                <h3 class="text-white font-bold text-xl leading-tight">G.P. de Interlagos 2008: O título no último suspiro</h3>
                             </div>
                         </div>
                         <div class="p-4 flex justify-between items-center text-sm text-slate-500">
-                            <span><i class="far fa-calendar-alt mr-1"></i> Nov 2016</span>
-                            <span class="text-blue-600 font-bold uppercase tracking-tighter">Ver Registros <i class="fas fa-arrow-right ml-1"></i></span>
+                            <span><i class="far fa-calendar-alt mr-1"></i> Nov 2008</span>
+                            <span class="text-blue-600 font-bold uppercase tracking-tighter">Ver Corrida <i class="fas fa-arrow-right ml-1"></i></span>
                         </div>
                     </div>
                 </div>
 
                 <!-- ESPAÇO PUBLICITÁRIO NO MEIO DO CONTEÚDO -->
                 <div class="my-10 bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                    <p class="text-[9px] text-slate-400 text-center mb-4 uppercase">Sugestões para você</p>
+                    <p class="text-[9px] text-slate-400 text-center mb-4 uppercase">Publicidade</p>
+                    <!-- arquiv_2026 -->
                     <ins class="adsbygoogle"
                          style="display:block"
                          data-ad-client="ca-pub-7197376783143404"
-                         data-ad-slot="2704581234"
+                         data-ad-slot="6214191157"
                          data-ad-format="auto"
                          data-full-width-responsive="true"></ins>
                     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
                 </div>
 
-                <!-- Lista de Pilotos em Destaque -->
-                <h3 class="text-2xl font-bold mb-6 text-slate-800">Dominância por Era</h3>
+                <!-- Lista de Pilotos em Destaque (Expandida) -->
+                <h3 class="text-2xl font-bold mb-6 text-slate-800 italic uppercase">Dominância por Era (2005 - 2025)</h3>
                 <div class="space-y-4">
-                    <div class="flex items-center p-4 bg-white rounded-xl border-l-4 border-blue-600 shadow-sm hover:shadow-md transition">
-                        <div class="w-12 h-12 rounded-full bg-slate-200 flex-shrink-0 mr-4 flex items-center justify-center font-bold text-blue-900 italic">44</div>
-                        <div class="flex-grow">
-                            <h4 class="font-bold text-lg">Lewis Hamilton</h4>
-                            <p class="text-sm text-slate-500">Era Turbo Híbrida: 2015, 2017, 2018, 2019, 2020</p>
-                        </div>
-                        <i class="fas fa-trophy text-amber-500 text-xl"></i>
-                    </div>
+                    <!-- Verstappen -->
                     <div class="flex items-center p-4 bg-white rounded-xl border-l-4 border-amber-500 shadow-sm hover:shadow-md transition">
                         <div class="w-12 h-12 rounded-full bg-slate-200 flex-shrink-0 mr-4 flex items-center justify-center font-bold text-amber-600 italic">01</div>
                         <div class="flex-grow">
                             <h4 class="font-bold text-lg">Max Verstappen</h4>
                             <p class="text-sm text-slate-500">O Novo Domínio: 2021, 2022, 2023, 2024</p>
+                        </div>
+                        <i class="fas fa-trophy text-amber-500 text-xl"></i>
+                    </div>
+                    <!-- Hamilton -->
+                    <div class="flex items-center p-4 bg-white rounded-xl border-l-4 border-blue-600 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-full bg-slate-200 flex-shrink-0 mr-4 flex items-center justify-center font-bold text-blue-900 italic">44</div>
+                        <div class="flex-grow">
+                            <h4 class="font-bold text-lg">Lewis Hamilton</h4>
+                            <p class="text-sm text-slate-500">Era Híbrida e Estreia: 2008, 2014, 2015, 2017, 2018, 2019, 2020</p>
+                        </div>
+                        <i class="fas fa-trophy text-amber-500 text-xl"></i>
+                    </div>
+                    <!-- Vettel -->
+                    <div class="flex items-center p-4 bg-white rounded-xl border-l-4 border-blue-400 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-full bg-slate-200 flex-shrink-0 mr-4 flex items-center justify-center font-bold text-blue-500 italic">05</div>
+                        <div class="flex-grow">
+                            <h4 class="font-bold text-lg">Sebastian Vettel</h4>
+                            <p class="text-sm text-slate-500">Domínio Red Bull: 2010, 2011, 2012, 2013</p>
+                        </div>
+                        <i class="fas fa-trophy text-amber-500 text-xl"></i>
+                    </div>
+                    <!-- Button/Raikkonen -->
+                    <div class="flex items-center p-4 bg-white rounded-xl border-l-4 border-slate-400 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-full bg-slate-200 flex-shrink-0 mr-4 flex items-center justify-center font-bold text-slate-600 italic">07</div>
+                        <div class="flex-grow">
+                            <h4 class="font-bold text-lg">J. Button & K. Räikkönen</h4>
+                            <p class="text-sm text-slate-500">Campões das Eras de Transição: 2007, 2009</p>
+                        </div>
+                        <i class="fas fa-trophy text-amber-500 text-xl"></i>
+                    </div>
+                    <!-- Alonso -->
+                    <div class="flex items-center p-4 bg-white rounded-xl border-l-4 border-blue-800 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-full bg-slate-200 flex-shrink-0 mr-4 flex items-center justify-center font-bold text-blue-900 italic">14</div>
+                        <div class="flex-grow">
+                            <h4 class="font-bold text-lg">Fernando Alonso</h4>
+                            <p class="text-sm text-slate-500">Bicampeonato Renault: 2005, 2006</p>
                         </div>
                         <i class="fas fa-trophy text-amber-500 text-xl"></i>
                     </div>
@@ -202,19 +235,19 @@
                 <!-- Navegação por Ano -->
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
                     <h3 class="font-black text-xl mb-6 flex items-center italic">
-                        <i class="fas fa-history mr-2 text-blue-600"></i> NAVEGAR ANOS
+                        <i class="fas fa-history mr-2 text-blue-600"></i> NAVEGAR ARQUIVOS
                     </h3>
                     <div class="grid grid-cols-3 gap-2">
+                        <a href="#" class="bg-amber-100 hover:bg-amber-500 hover:text-white p-2 rounded-lg text-center font-bold transition text-xs">2005-09</a>
+                        <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-2 rounded-lg text-center font-bold transition text-xs">2010</a>
+                        <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-2 rounded-lg text-center font-bold transition text-xs">2011</a>
+                        <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-2 rounded-lg text-center font-bold transition text-xs">2012</a>
+                        <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-2 rounded-lg text-center font-bold transition text-xs">2013</a>
+                        <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-2 rounded-lg text-center font-bold transition text-xs">2014</a>
                         <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-3 rounded-lg text-center font-bold transition">2015</a>
-                        <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-3 rounded-lg text-center font-bold transition">2016</a>
-                        <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-3 rounded-lg text-center font-bold transition">2017</a>
                         <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-3 rounded-lg text-center font-bold transition">2018</a>
-                        <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-3 rounded-lg text-center font-bold transition border-2 border-amber-500">2019</a>
-                        <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-3 rounded-lg text-center font-bold transition">2020</a>
                         <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-3 rounded-lg text-center font-bold transition">2021</a>
-                        <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-3 rounded-lg text-center font-bold transition">2022</a>
-                        <a href="#" class="bg-slate-100 hover:bg-blue-600 hover:text-white p-3 rounded-lg text-center font-bold transition">2023</a>
-                        <a href="#" class="bg-slate-900 text-amber-500 p-3 rounded-lg text-center font-bold transition col-span-3">2024 / 2025</a>
+                        <a href="#" class="bg-slate-900 text-amber-500 p-3 rounded-lg text-center font-bold transition col-span-3 italic text-sm">NOTÍCIAS 2026</a>
                     </div>
                 </div>
 
@@ -222,10 +255,11 @@
                 <div class="sticky top-24">
                     <p class="text-[10px] text-slate-400 uppercase tracking-widest mb-2 text-center">Publicidade</p>
                     <div class="bg-white p-2 rounded-xl shadow-sm border border-slate-100 min-h-[600px]">
+                        <!-- arquiv_2026 -->
                         <ins class="adsbygoogle"
                              style="display:block"
                              data-ad-client="ca-pub-7197376783143404"
-                             data-ad-slot="2704581234"
+                             data-ad-slot="6214191157"
                              data-ad-format="auto"
                              data-full-width-responsive="true"></ins>
                         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -247,39 +281,30 @@
                         <span class="text-4xl font-black italic">ARQUIV</span>
                     </div>
                     <p class="text-slate-400 max-w-md leading-relaxed">
-                        O banco de dados definitivo para entusiastas e pesquisadores da Fórmula 1. Analisamos dados, comparamos eras e preservamos a memória do esporte motorizado desde 2015.
+                        Preservando a memória do esporte motorizado com registros históricos de 2005 até as últimas notícias de 2026.
                     </p>
                 </div>
                 <div>
                     <h4 class="font-bold text-lg mb-6 text-amber-500 uppercase tracking-widest">Links Rápidos</h4>
                     <ul class="space-y-4 text-slate-400">
-                        <li><a href="#" class="hover:text-white transition">Início</a></li>
-                        <li><a href="#" class="hover:text-white transition">Sobre o Projeto</a></li>
+                        <li><a href="#" class="hover:text-white transition">Acervo 2005</a></li>
+                        <li><a href="#" class="hover:text-white transition">Notícias Atuais</a></li>
                         <li><a href="#" class="hover:text-white transition">Privacidade</a></li>
-                        <li><a href="#" class="hover:text-white transition">Anunciar</a></li>
+                        <li><a href="#" class="hover:text-white transition">Contato</a></li>
                     </ul>
-                </div>
-                <div>
-                    <h4 class="font-bold text-lg mb-6 text-amber-500 uppercase tracking-widest">Siga-nos</h4>
-                    <div class="flex space-x-4">
-                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition"><i class="fab fa-youtube"></i></a>
-                    </div>
                 </div>
             </div>
             
             <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500 italic">
-                <p>&copy; 2025 ARQUIV - Todos os direitos reservados. F1 e Fórmula 1 são marcas registradas.</p>
+                <p>&copy; 2026 ARQUIV - Portal em fase de atualização de registros históricos.</p>
                 <div class="flex space-x-6 mt-4 md:mt-0">
-                    <span>Versão 2.0.4 - Gold</span>
+                    <span class="text-amber-500 font-bold tracking-widest">VERSÃO 2026 BETA</span>
                 </div>
             </div>
         </div>
     </footer>
 
     <script>
-        // Animação simples de entrada para os cards
         document.addEventListener('DOMContentLoaded', () => {
             const cards = document.querySelectorAll('.card-hover');
             cards.forEach((card, index) => {
